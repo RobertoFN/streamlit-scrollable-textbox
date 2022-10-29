@@ -1,13 +1,17 @@
 import setuptools
 
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
 setuptools.setup(
     name="streamlit_scrollable_textbox",
     version="0.0.1",
     author="Roberto Frias Nerio",
     author_email="robertofnerio@gmail.com",
     description="Scrollable textbox for Streamlit.",
-    long_description="",
-    long_description_content_type="text/plain",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url="",
     packages=setuptools.find_packages(),
     include_package_data=True,
