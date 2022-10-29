@@ -1,0 +1,6 @@
+build/
+.venv/
+dist/
+streamlit_scrollable_textbox.egg-info/
+streamlit_scrollable_textbox/frontend/build/
+streamlit_scrollable_textbox/frontend/node_modules/
