@@ -12,10 +12,10 @@ Importing and using the package in your Python project can be done as so:
 
       import streamlit-scrollable-textbox as stx
 
-      stx.ScrollableTextbox('My very long text.')
+      stx.scrollableTextbox('My very long text.')
 
 <br>
-The parameters of the ScrollableTextbox function are:
+The parameters of the scrollableTextbox function are:
 
 - text (str): The text to be displayed. Line breaks and new lines can be added by including "\n" in the string. 
 - height (int): The height of the scrollable area, in pixels. Default value is 100 px.

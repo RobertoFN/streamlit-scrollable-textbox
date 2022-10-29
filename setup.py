@@ -6,13 +6,13 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name="streamlit_scrollable_textbox",
-    version="0.0.1",
+    version="0.0.2",
     author="Roberto Frias Nerio",
     author_email="robertofnerio@gmail.com",
     description="Scrollable textbox for Streamlit.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/RobertoFN/streamlit-scrollable-textbox",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],

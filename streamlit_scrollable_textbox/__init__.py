@@ -10,19 +10,19 @@ if _RELEASE:
     build_dir = os.path.join(root_dir, 'frontend/build')
 
     _scrollable_textbox = components.declare_component(
-        "ScrollableTextbox",
+        "scrollableTextbox",
         path=build_dir
     )
 else:
     _scrollable_textbox = components.declare_component(
-        "ScrollableTextbox",
+        "scrollableTextbox",
         url="http://localhost:3001"
     )
 
 
-def ScrollableTextbox(text:str, height:int=100, border:bool=True, key=None):
+def scrollableTextbox(text:str, height:int=100, border:bool=True, key=None):
     return _scrollable_textbox(text=text, height=height, border=border, key=key, default=None)
 
 if not _RELEASE:
-    ScrollableTextbox('This is some \ntext', key='1')
+    scrollableTextbox('This is some \ntext', key='1')
 
