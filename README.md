@@ -10,7 +10,7 @@ To install the component, run the following command:
 <br>
 Importing and using the package in your Python project can be done as so:
 
-      import streamlit-scrollable-textbox as stx
+      import streamlit_scrollable_textbox as stx
 
       stx.scrollableTextbox('My very long text.')
 
