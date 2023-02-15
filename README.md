@@ -19,6 +19,7 @@ The parameters of the scrollableTextbox function are:
 
 - text (str): The text to be displayed. Line breaks and new lines can be added by including "\n" in the string. 
 - height (int): The height of the scrollable area, in pixels. Default value is 100 px.
+- font family (str): The font family of the text to be displayed. Only fonts supported by browsers can be used.
 - border (bool): Define whether the scrollable area should have a border or not.
 
 <br><br>
