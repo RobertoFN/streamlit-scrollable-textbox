@@ -12,6 +12,7 @@ class ScrollableText extends StreamlitComponentBase {
     const text = this.props.args["text"]
     const height_int = this.props.args["height"]
     const border_bool = this.props.args["border"]
+    const font_fam = this.props.args["fontFamily"]
 
     const f_height = height_int + 'px';
 
@@ -19,7 +20,7 @@ class ScrollableText extends StreamlitComponentBase {
     
     return (
         <div style={{height:f_height, width:'auto', border:f_border, borderRadius:'0.2em', overflowY:'scroll'}}>
-          <div style={{marginLeft:'0.5em', marginRight:'0.7em', marginTop:'0.2em', marginBottom:'0.5em', whiteSpace: 'pre-line'}}>{text}</div>
+          <div style={{marginLeft:'0.5em', fontFamily:font_fam, marginRight:'0.7em', marginTop:'0.2em', marginBottom:'0.5em', whiteSpace: 'pre-line'}}>{text}</div>
         </div>
     )
   }
